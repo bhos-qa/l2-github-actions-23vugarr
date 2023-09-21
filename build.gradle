@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.junit.jupiter:junit-jupiter-api:5.8.0' // Replace with the version you need
+    testImplementation 'org.junit.jupiter:junit-jupiter-engine:5.8.0' // Replace with the version you need for tests
+}
+
+test {
+    useJUnitPlatform()
+}
